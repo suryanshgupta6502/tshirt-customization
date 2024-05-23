@@ -41,7 +41,7 @@ function Tshirt() {
         Net_Tshirt: false,
         Walk: {
             value: false,
-            // onChange: (val) => animation(val)
+            onChange: (val) => animation(val)
         }
     })
 
