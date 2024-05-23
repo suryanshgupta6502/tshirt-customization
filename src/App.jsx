@@ -6,15 +6,22 @@ import * as three from 'three'
 import Lights from './Lights'
 import Plane from './Plane'
 
+
+
+
 function App() {
+
+
+
     return (
         <>
             <Canvas
 
                 camera={{
-                    position: [-1, 4, 10],
+                    position: [-1, 0, 10],
                 }}
                 gl={{
+                    pixelRatio: window.devicePixelRatio,
                     toneMapping: three.ACESFilmicToneMapping,
                     // outputColorSpace: three.LinearSRGBColorSpace,
                 }}

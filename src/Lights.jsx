@@ -8,8 +8,8 @@ function Lights() {
     const light = useRef()
     const light1 = useRef()
 
-    useHelper(light, DirectionalLightHelper, 1, "red")
-    useHelper(light1, DirectionalLightHelper, 1, "red")
+    // useHelper(light, DirectionalLightHelper, 1, "red")
+    // useHelper(light1, DirectionalLightHelper, 1, "red")
     // useHelper(light1, ambien, 1, "red")
 
     return (
